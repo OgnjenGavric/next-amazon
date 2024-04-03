@@ -127,7 +127,7 @@ export default function ProductEditForm({ productId }: { productId: string }) {
         <form onSubmit={handleSubmit(formSubmit)}>
           <FormInput name="Name" id="name" required />
           <FormInput name="Slug" id="slug" required />
-          <FormInput name="Image" id="image" required />
+          <FormInput name="Image" id="image" />
           <div className="md:flex mb-6">
             <label className="label md:w-1/5" htmlFor="imageFile">
               Upload Image
