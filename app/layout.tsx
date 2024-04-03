@@ -5,6 +5,7 @@ import Providers from '@/components/Providers'
 import DrawerButton from '@/components/DrawerButton'
 import Sidebar from '@/components/Sidebar'
 import Header from '@/components/header/Header'
+import HeroPage from '@/components/Hero'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -27,6 +28,7 @@ export default function RootLayout({
             <div className="drawer-content">
               <div className="min-h-screen flex flex-col">
                 <Header />
+                <HeroPage />
                 {children}
                 <footer className="footer footer-center p-4 bg-base-300 text-base-content">
                   <p>
